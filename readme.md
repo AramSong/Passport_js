@@ -12,22 +12,19 @@
 * 사용자의 비밀번호가 유출되면 안됨.
 * MD5
 
-![1549950822246](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1549950822246.png)
-
+![1549950822246](https://user-images.githubusercontent.com/38032500/52928802-ee67f200-3384-11e9-885f-150d84335010.png)
  * 단방향 암호화 : 원래의 문자를 암호화된 문자로 바꿀수는 있지만 암호화된 문자를 원래의 문자로 복호화할
 
    수는 없음.
-
-![1549951003217](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1549951003217.png)
+![1549951003217](https://user-images.githubusercontent.com/38032500/52928806-f1fb7900-3384-11e9-96ce-7ba94528a8c1.png)
 
 * 사용자가 로그인하는 순간에 사용자가 입력한 값을 저장되어있는 비밀번호와 비교할 때, 사용자가 입력한 비밀번호도 md5로 암호화.
 
 * 키 스트레칭?
 * PBKDF2
 
-![1549951601111](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1549951601111.png)
-
-![1549951723793](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\1549951723793.png)
+![1549951601111](https://user-images.githubusercontent.com/38032500/52928813-f6279680-3384-11e9-967f-38672f57cc92.png)
+![1549951723793](https://user-images.githubusercontent.com/38032500/52928815-f9228700-3384-11e9-8933-a24d1def3568.png)
 
 1. 첫번째 null : error가 없음
 
