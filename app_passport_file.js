@@ -85,8 +85,8 @@ passport.use(new LocalStrategy(
 ));
 //페이스북 방식
 passport.use(new FacebookStrategy({
-    clientID: '2321275061437063',
-    clientSecret: 'd72c6cf37b54fcd068251aee9f0e1c3a',
+    clientID: '**************',
+    clientSecret: '**************',
     callbackURL: "/auth/facebook/callback",
   },
   function(accessToken, refreshToken, profile, done) {
